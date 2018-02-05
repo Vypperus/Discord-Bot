@@ -88,7 +88,7 @@ let botembed = new Discord.RichEmbed()
 .setColor("#420303") 
 .addField("Имя", robot.user.username) 
 .setThumbnail(bicon) 
-.addField("Разработчик", "「†EmPtY†」") 
+.addField("Разработчик", "「†EmPtY†」(𝕴𝕹𝕱𝕷𝖀𝖃)") 
 .addField("Команды", "%ex %help %serverinfo") 
 return message.channel.send(botembed); 
 } 
@@ -110,6 +110,6 @@ return message.channel.send(serverembed);
 } 
 });
 
-index.listen(process.env.PORT || 8000, function(){
+app.listen(process.env.PORT || 8000, function(){
   console.log("App is running on port " + port);
 });
