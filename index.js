@@ -112,4 +112,4 @@ return message.channel.send(serverembed);
 
 /*index.listen(process.env.PORT || 8000, function(){
   console.log("App is running on port " + port);
-});8/
+});*/
