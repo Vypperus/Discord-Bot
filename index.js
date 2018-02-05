@@ -110,6 +110,6 @@ return message.channel.send(serverembed);
 } 
 });
 
-app.listen(process.env.PORT || 8000, function(){
+/*app.listen(process.env.PORT || 8000, function(){
   console.log("App is running on port " + port);
-});
+});*/
