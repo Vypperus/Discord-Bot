@@ -1,6 +1,6 @@
 //import { Message } from 'discord.js'; 
 
-var port = process.env.PORT || 8000
+//var port = process.env.PORT || 8000
 
 const Discord = require('discord.js'); 
 const robot = new Discord.Client({ 
