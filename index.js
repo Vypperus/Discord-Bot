@@ -1,6 +1,6 @@
 //import { Message } from 'discord.js'; 
 
-var port = process.env.PORT || 8000
+//var port = process.env.PORT || 8000
 
 const Discord = require('discord.js'); 
 const robot = new Discord.Client({ 
@@ -110,6 +110,6 @@ return message.channel.send(serverembed);
 } 
 });
 
-app.listen(process.env.PORT || 8000, function(){
+/*app.listen(process.env.PORT || 8000, function(){
   console.log("App is running on port " + port);
-});
+});*/
